@@ -1,0 +1,3 @@
+* Phan tich:
+- khi có nhiều thành phần giống nhau, dùng nhiều lần ==> nên đặt class
+==> sau này CSS nó dễ dàng hơn!!

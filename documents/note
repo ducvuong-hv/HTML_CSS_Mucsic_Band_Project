@@ -1,0 +1,27 @@
+1. Thuộc tính box-sizing trong CSS
+Để xác định xem width - height của box sẽ bao gồm những thành phần nào
+- content-box : chỉ áp dụng cho nội dung bên trong ==> khi khai báo w-h xong thêm 
+padding và margin vào thì bingo, element của bạn sẽ to ra.
+- border-box: w-h sẽ bao gồm content+padding+boder.
+- padding-box: w-h sẽ chỉ bao gồm content+padding.
+
+==================
+
+2. khi làm 1 website
+- Vị trí
+- Kích thước
+- Màu sắc
+- Kiểu dáng (kiểu chữ, hình tròn, vuông...)
+
+=========================
+
+mặc định thẻ div có tính chất block - tức chiều rộng = chiều rộng website
+
+=================
+
+4. Nguyên tắc : Làm từ ngoài vào trong ==> từ trên xuống dưới ==> tổng quan tới chi tiết
+===============
+
+Thẻ li luôn có style là list-item, nên mắc định là nó nằm trên 1 cột
+
+5. Cách căn giữa chữ : tạo line-high của chữ bằng với chiều cao của element ==> tự nó sẽ căn giữa
