@@ -20,30 +20,69 @@ html{
 }
 
 #slider{
+    
+}
 
+#nav > li{
+    display: inline-block;
 }
 
 #nav li{
-    display: inline-block;
+    position: relative;
+}
+
+#nav, .subnav {
+    list-style-type: none;
 }
 
 #nav li a{
-    color: #FFF;
+    color: #000;
     text-decoration: none;
     line-height: 46px;
     padding: 0px 24px;
-    display: inline-block;
+    display: block;
 }
 
-#nav li:hover a{
+#nav > li> a{
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+#nav > li:hover > a{
     color: #000;
     background-color: #ccc;
     
 }
 
+#nav li:hover .subnav{
+    display: block;
+}
+
 #nav .subnav{
     display: none;
+    position: absolute;
+    min-width: 160px;
+    top: 46px;
+    left: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+#nav .subnav li:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .subnav li{
+    height: 36px;
+}
+
+#nav .subnav a{
+    padding: 6px;
+    color: #000;
+    line-height: 32px;
+}
+
+
 
 #content{
 

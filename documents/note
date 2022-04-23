@@ -25,3 +25,5 @@ mặc định thẻ div có tính chất block - tức chiều rộng = chiều 
 Thẻ li luôn có style là list-item, nên mắc định là nó nằm trên 1 cột
 
 5. Cách căn giữa chữ : tạo line-high của chữ bằng với chiều cao của element ==> tự nó sẽ căn giữa
+
+6. Làm việc với ẩn hiện ==> cho nó hiện hết ra đã rồi ẩn hiện sau
